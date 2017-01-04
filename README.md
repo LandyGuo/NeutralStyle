@@ -9,6 +9,12 @@ The implementation refers to [Anish Athalye's implementation](https://github.com
 * scipy
 * A well trained VGG19 Model,you can download it [here](https://pan.baidu.com/s/1bo2ojKV)
 
+## Examples
+![input.jpg](https://github.com/LandyGuo/NeutralStyle/blob/master/examples/input.jpg)
+![style1.jpg](https://github.com/LandyGuo/NeutralStyle/blob/master/examples/style1.jpg)
+![style1-out.jpg](https://github.com/LandyGuo/NeutralStyle/blob/master/examples/style1_out.jpg)
+
+
 ## How to realize
 * Input content Image-->VGG19 `Relu_42` feature extraction--> content feature
 * Input style Image--> VGG19 `Relu1_1`,`Relu2_1`,`Relu3_1`,`Relu4_1`,`Relu5_1`--> style feature
