@@ -11,8 +11,8 @@ IMAGENET_MEAN_PIXEL = [ 123.68 , 116.779 , 103.939]
 
 
 ############################input params############################
-INPUT_IMAGE_PATH="examples/2.jpg"
-STYLE_IMAGE_PATH="examples/2-style1.jpg"
+INPUT_IMAGE_PATH="examples/input.jpg"
+STYLE_IMAGE_PATH="examples/style1.jpg"
 OUTPUT_IMAGE_PATH="generated"
 
 ###########################handle input shape#############################
